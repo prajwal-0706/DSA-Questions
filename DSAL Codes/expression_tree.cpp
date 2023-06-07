@@ -127,5 +127,5 @@ int main()
   // t.display(t.top);
   // cout<<endl;
   t.non_rec_postorder(t.top);
-  t.del(t.top);
+  // t.del(t.top);
 }

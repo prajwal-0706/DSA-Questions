@@ -156,7 +156,7 @@ int main()
     cout << "4.Height of tree " << endl;
     cout << "5.Minimum and Maximum value in tree " << endl;
     cout << "6.Search value in tree " << endl;
-    cout << "7.Mirror image of trre" << endl;
+    cout << "7.Mirror image of tree" << endl;
     cout << "8.Exit " << endl;
 
     int ch;
