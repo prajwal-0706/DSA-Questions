@@ -4,9 +4,7 @@ import java.io.*;
 class SymTab
 {
 	public static void main(String args[])throws Exception
-	{
-		// FileReader FP=new FileReader(args[0]);
-		// BufferedReader bufferedReader = new BufferedReader(FP);		
+	{		
 
     BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream("input.txt")));
 		
