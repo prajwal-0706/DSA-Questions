@@ -1,4 +1,4 @@
-
+package LP_1.Scheduling;
 import java.util.Scanner;
 
 class Process{
