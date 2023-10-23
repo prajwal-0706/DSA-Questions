@@ -26,7 +26,7 @@ class SymTab
 		     	if(line_count==0)
 		     	{
 		     		LC=Integer.parseInt(tokens[2]);					
-//set LC to operand of START
+						//set LC to operand of START
 		     		for(int i=0;i<tokens.length;i++)		//for printing the input program
 		     	 		System.out.print(tokens[i]+"\t");
 		     	 	System.out.println("");
