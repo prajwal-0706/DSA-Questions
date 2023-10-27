@@ -69,16 +69,15 @@ public:
 
   void print(Node *root)
   {
-    // first go to most left node
+
     Node *current = leftMostNode(root);
-    // now travel using right pointers
     while (current != nullptr)
     {
       cout << " " << current->data;
-      // check if node has a right thread
+
       if (current->rightThread)
         current = current->right;
-      else // else go to left most node in the right subtree
+      else
         current = leftMostNode(current->right);
     }
     cout << endl;
