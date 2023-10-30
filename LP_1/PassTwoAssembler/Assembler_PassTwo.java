@@ -1,4 +1,4 @@
-package LP_1.PassTwoAssembler;
+// package LP_1.PassTwoAssembler;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -10,9 +10,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-import LP_1.PassTwoAssembler.Tuple;
-import LP_1.PassTwoAssembler.SymTuple;
-import LP_1.PassTwoAssembler.LitTuple;
+import A2.Tuple;
+import A2.SymTuple;
+import A2.LitTuple;
 
 	class Tuple {
 		//m_class specifies class of the mnemonic such as IS, DL, or AD
