@@ -68,7 +68,6 @@ import A2.LitTuple;
 		symtable = new ArrayList<>();
 		littable = new ArrayList<>();
 		regAddressTable = new HashMap<>();
-		//MOT = new HashMap<>();
 		String s;
 		BufferedReader br;
 		br = new BufferedReader(new InputStreamReader(new FileInputStream("src/LP_1.PassTwoAssembler/symtable.txt")));
