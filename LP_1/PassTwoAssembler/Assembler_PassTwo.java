@@ -8,9 +8,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-import A2.Tuple;
-import A2.SymTuple;
-import A2.LitTuple;
+// import A2.Tuple;
+// import A2.SymTuple;
+// import A2.LitTuple;
 
 	class Tuple {
 		//m_class specifies class of the mnemonic such as IS, DL, or AD

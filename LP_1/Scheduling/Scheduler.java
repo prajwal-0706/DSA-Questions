@@ -133,8 +133,10 @@ public class Scheduler {
 			// Check if its remaining time becomes 0
 			if (curProcess.timeToComplete == 0) {
 				// Increment the counter of process completion.
+
 				completedProcesses++;
 				// Completion time of current process = current_time +1;
+				
 				curProcess.completionTime = curTimeInterval + 1;
 			}
 			curTimeInterval++;
