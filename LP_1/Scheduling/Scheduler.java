@@ -136,7 +136,7 @@ public class Scheduler {
 
 				completedProcesses++;
 				// Completion time of current process = current_time +1;
-				
+
 				curProcess.completionTime = curTimeInterval + 1;
 			}
 			curTimeInterval++;
@@ -150,7 +150,7 @@ public class Scheduler {
 			// Find turnAroundTime time (waitingTimeing_time+burst_time)
 			myProcess[i].turnAroundTime = myProcess[i].waitingTime + myProcess[i].burstTime;
 			System.out.println("Process " + myProcess[i].pid + ":");
-			System.out.println("turnAroundTime\tCompletion\twaitingTimeing");
+			System.out.println("turnAroundTime \t Completion \t waitingTimeing");
 			System.out.println(
 					myProcess[i].turnAroundTime + "\t\t\t" + myProcess[i].completionTime + "\t\t" + myProcess[i].waitingTime);
 		}
@@ -177,7 +177,7 @@ public class Scheduler {
 			myProcess[i].turnAroundTime = myProcess[i].completionTime - myProcess[i].arrivalTime;
 			myProcess[i].waitingTime = myProcess[i].turnAroundTime - myProcess[i].burstTime;
 			System.out.println("Process " + myProcess[i].pid + ":");
-			System.out.println("turnAroundTime\tCompletion\twaitingTimeing");
+			System.out.println("turnAroundTime \t Completion \t waitingTimeing");
 			System.out.println(
 					myProcess[i].turnAroundTime + "\t\t\t" + myProcess[i].completionTime + "\t\t" + myProcess[i].waitingTime);
 		}
